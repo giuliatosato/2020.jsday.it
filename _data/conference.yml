@@ -1,0 +1,29 @@
+name: jsday
+where: Verona, Italy
+when: May 12th-13th 2020
+venue: Hotel S. Marco
+since: 2012
+year: 2020
+tagline: The international JavaScript conference
+url: https://2020.jsday.it
+descr: The first international conference on JavaScript in Italy
+twitter: "@jsconfit"
+facebook: jsday.conference
+media_partners_helper: jsday.js
+domain: jsday.it
+show_cfp: true
+cfp_url: https://cfp.jsday.it/
+scholarships_available: true
+schedule_available: false
+eventbrite_link: https://eventbrite.com/tickets-external?eid=61732389238&ref=etckt
+
+iubenda:
+  cookiePolicyId: 35664682
+  siteId: 1066517
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: jsday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-M4L8PSK

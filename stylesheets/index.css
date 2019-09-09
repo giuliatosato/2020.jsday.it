@@ -1,0 +1,172 @@
+
+/* Conference */
+
+.conference {
+  margin-bottom: 3rem;
+}
+
+.conference__title {
+  font-family: "ProximaNovaCondensedExtrabold";
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.conference__subtitle {
+  color: #652D90;
+  display: block;
+}
+
+.conference__subtitle_nocaps {
+  color: #652D90;
+  display: block;
+  text-transform: none;
+}
+
+.conference__info {
+  font-size: 2rem;
+}
+
+/* Social night (yes/no pages) */
+
+.social-night-yes-no {
+  margin: 3rem 0 10rem 0;
+  font-family: "ProximaNovaCondensedExtrabold";
+  font-size: 3rem;
+}
+
+
+/* Speakers */
+
+.speakers {
+  margin-bottom: 3rem;
+}
+
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+
+.speaker {
+  flex-grow: 1;
+  max-width: 25%;
+  min-width: 25%;
+  padding: 0.5rem;
+}
+
+@media (max-width: 60rem) {
+  .speaker {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 30rem) {
+  .speaker {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+.speaker__card {
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0,.1),0 0 2px rgba(0, 0, 0,.1);
+  display: block;
+  transition: transform .24s, box-shadow .24s;
+}
+
+.speaker__card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0,.1),0 0 2px rgba(0, 0, 0,.1);
+  transform: translateY(-4px);
+}
+
+.speaker__picture {
+  background-image: linear-gradient(45deg, #262261, #652D90);
+  background-position: center;
+  background-size: cover;
+  min-height: 12.5rem;
+  min-width: 12.5rem;
+}
+
+.speaker__info {
+  padding: 0.5rem;
+}
+
+.speaker__name {
+  color: #000;
+  margin-bottom: 0.25rem;
+}
+
+.speaker__company {
+  font-size: 0.875rem;
+  color: #652D90;
+}
+
+
+
+/* Tickets */
+
+.tickets {
+  margin-bottom: 3rem;
+}
+
+.tickets__iframe {
+  border: 0;
+  height: 782px;
+  width: 100%;
+}
+
+
+
+/* Media partners */
+
+.media-partners {
+  margin: 3rem 0 2rem 0;
+}
+
+.media-partners__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media-partner {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  max-width: 20%;
+  min-width: 20%;
+}
+
+@media (max-width: 60rem) {
+  .media-partner {
+    max-width: 33%;
+    min-width: 33%;
+  }
+}
+
+@media (max-width: 30rem) {
+  .media-partner {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+.media-partner__card {
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  height: 100%;
+  transition: border .24s;
+}
+
+.media-partner__logo {
+  height: auto;
+  min-width: 9rem;
+  max-width: 9rem;
+  padding: .25rem;
+}
+
+.media-partner__card:hover {
+  border: 1px solid #652D90;
+}

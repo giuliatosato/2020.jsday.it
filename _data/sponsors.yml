@@ -1,0 +1,27 @@
+main:
+  list:
+
+diamond:
+  list:
+
+platinum:
+  list:
+    -
+      url: https://www.workwave.com/?utm_source=jsday
+      image: workwave.svg
+
+gold:
+  list:
+    -
+      url: https://www.flowing.it/?utm_source=jsday
+      image: flowing.svg
+
+silver:
+  list:
+
+bronze:
+  list:
+
+diversity:
+  list:
+

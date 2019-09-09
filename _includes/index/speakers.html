@@ -1,0 +1,23 @@
+{% if site.data.speakers.list | size %}
+<div class="speakers">
+    <div class="container">
+        <div class="section-title">On stage</div>
+        <div class="speakers__list">
+            {% assign speakers = site.data.speakers.list %}
+            {% for speaker in speakers %}
+            <div class="speaker">
+                <a class="speaker__card" href="talks.html#{{ speaker.id }}"
+                   title="{{ speaker.first_name }} {{ speaker.last_name }}">
+                    <div class="speaker__picture"
+                         style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
+                    <div class="speaker__info">
+                        <div class="speaker__name">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+                        <div class="speaker__company">{{ speaker.company }}</div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}

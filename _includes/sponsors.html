@@ -1,0 +1,83 @@
+<div class="sponsors">
+    <div class="container">
+        <h1 class="section-title">Sponsored by</h1>
+        <div class="sponsors__list">
+            {% if site.data.sponsors.main.list | size %}
+                {% for sponsor in site.data.sponsors.main.list %}
+                    <div class="sponsor sponsor--main">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Main</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if site.data.sponsors.diamond.list | size %}
+                {% for sponsor in site.data.sponsors.diamond.list %}
+                    <div class="sponsor sponsor--diamond">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Diamond</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if site.data.sponsors.platinum.list | size %}
+                {% for sponsor in site.data.sponsors.platinum.list %}
+                    <div class="sponsor sponsor--platinum">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Platinum</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if site.data.sponsors.gold.list | size %}
+                {% for sponsor in site.data.sponsors.gold.list %}
+                    <div class="sponsor sponsor--gold">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Gold</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if site.data.sponsors.silver.list | size %}
+                {% for sponsor in site.data.sponsors.silver.list %}
+                    <div class="sponsor sponsor--silver">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Silver</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if site.data.sponsors.bronze.list | size %}
+                {% for sponsor in site.data.sponsors.bronze.list %}
+                    <div class="sponsor sponsor--bronze">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Bronze</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if site.data.sponsors.diversity.list | size %}
+                {% for sponsor in site.data.sponsors.diversity.list %}
+                    <div class="sponsor sponsor--diversity">
+                        <a class="sponsor__card" href="{{ sponsor.url }}">
+                            <span class="sponsor__package">Diversity</span>
+                            <img class="sponsor__logo" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.image }}"/>
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>

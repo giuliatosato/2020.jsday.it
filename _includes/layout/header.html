@@ -1,0 +1,84 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.data.conference.google.tag_manager_id }}"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="past-editions">
+  <div class="container">
+    <span class="past-editions__title">Browse past editions</span>
+    {% for year in (site.data.conference.since..site.data.conference.year) reversed %}
+    {% if forloop.first == false %}
+    <a class="past-editions__link" href="http://{{ year }}.{{ site.data.conference.domain }}"
+       title="{{ site.data.conference.name }} {{ year }}">{{ year }}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<header class="header">
+  <div class="container">
+    <div class="header__content">
+      <h1>
+        <a href="index.html" title="{{ site.data.conference.name }} {{ site.data.conference.year }}">
+          <img src="images/logos/jsday.png"
+               alt="{{ site.data.conference.name }} {{ site.data.conference.year }}"/>
+        </a>
+      </h1>
+      {% if site.data.conference.show_cfp %}
+      <div class="header__extra">
+        <a class="header__call-for-papers" href="{{ site.data.conference.cfp_url }}" title="Call for papers">
+          Call for papers
+          <span class="header__call-for-papers--accent">is open!</span>
+        </a>
+      </div>
+      {% endif %}
+      <div class="header__extra">
+        <div class="header__dates">
+          {{ site.data.conference.when }}
+        </div>
+        <div class="header__address">
+          {{ site.data.conference.venue }} &mdash; {{ site.data.conference.where }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="menu">
+  <div class="container">
+    <div class="menu__items">
+      <a class="menu__item" href="index.html" title="jsDay 2018">
+        Home
+      </a>
+      {% if site.data.talks.list | size %}
+      <a class="menu__item" href="talks.html" title="Talks">
+        Talks
+      </a>
+      {% endif %}
+      {% if site.data.conference.schedule_available %}
+      <a class="menu__item" href="schedule.html" title="Talks">
+        Schedule
+      </a>
+      {% endif %}
+      <a class="menu__item" href="tickets.html" title="Tickets">
+        Tickets
+      </a>
+      {% if site.data.conference.scholarships_available %}
+      <a class="menu__item" href="scholarships.html" title="Scholarships">
+        Scholarships
+      </a>
+      {% endif %}
+      <a class="menu__item" href="venue.html" title="Venue">
+        Venue
+      </a>
+      <a class="menu__item" href="sponsor.html" title="Sponsors">
+        Sponsors
+      </a>
+      <a class="menu__item" href="coc.html" title="Code of Conduct">
+        Code of Conduct
+      </a>
+    </div>
+  </div>
+</div>

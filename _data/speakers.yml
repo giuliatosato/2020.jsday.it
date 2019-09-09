@@ -1,0 +1,11 @@
+# place images in:
+# images/speakers/file.jpg
+#   -
+#    id:
+#    description:
+#    image:
+#    first_name:
+#    last_name:
+#    twitter:
+list:
+

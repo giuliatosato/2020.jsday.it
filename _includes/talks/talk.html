@@ -1,0 +1,52 @@
+{% assign talk = include.talk %}
+{% if talk.title != "TBA" %}
+    <div class="talk">
+        <div class="talk__speaker_container">
+            {% for speaker in site.data.speakers.list %}
+                {% for talk_speaker_id in talk.speaker_id %}
+                    {% if speaker.id == talk_speaker_id %}
+                        <a name="{{ speaker.id }}"></a>
+                        <a name="slot{{ talk.slot }}"></a>
+                        <div class="talk__speaker_item">
+                            <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter}}"
+                               title="{{ speaker.first_name }} {{ speaker.last_name }}">
+                                <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
+                                <div>
+                                    <div class="talk__name">
+                                        {{ speaker.first_name }} {{ speaker.last_name }}
+                                    </div>
+                                    <div class="speaker__company">
+                                        {{ speaker.company }}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="talk__content">
+            <div class="talk__title">{{ talk.title }}</div>
+                {% if talk.tags %}
+                    <div class="talk__tags">
+                        {% for tag in talk.tags %}
+                        <span class="talk__tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            <p class="talk__abstract">
+                {{ talk.extract }}
+            </p>
+            <p class="talk__bio__title">Bio</p>
+            {% for speaker in site.data.speakers.list %}
+                {% for talk_speaker_id in talk.speaker_id %}
+                    {% if speaker.id == talk_speaker_id %}
+                    <p class="talk__bio">
+                        {{ speaker.description }}
+                    </p>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

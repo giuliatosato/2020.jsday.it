@@ -1,0 +1,55 @@
+.schedule__table {
+  margin-bottom: 3rem;
+  width: 100%;
+  font-size: 90%;
+}
+
+.schedule__header th {
+  background-color: rgba(38, 34, 97, 0.4);
+  padding: .5rem;
+}
+
+.schedule__row td {
+  line-height: 1.2;
+  padding: .5rem;
+}
+
+@media (max-width: 30rem) {
+  .schedule__row td {
+    padding: .5rem;
+    font-size: 70%;
+  }
+}
+
+.schedule__row--break td {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
+}
+
+
+.schedule__talk-title {
+  color: #000;
+  margin-bottom: 0.25rem;
+}
+
+.schedule__talk-continue {
+  color: #333;
+  margin-bottom: 0.25rem;
+  font-size: 90%;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.schedule__talk-author {
+  color: #652D90;
+}
+
+.centered {
+  text-align: center;
+}
+
+.italic_bold {
+  font-style: italic;
+  font-weight: bold;
+}

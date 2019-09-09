@@ -1,0 +1,16 @@
+{% assign track_names = "|Track 1|Track 2" | split: "|" %}
+
+<tr class="schedule__header">
+  <th></th>
+  {% if include.tracks %}
+  {% for i in (1..include.tracks) %}
+  <th class="schedule__head schedule__head--upper">
+    {{track_names[i]}}
+  </th>
+  {% endfor %}
+  {% else %}
+  <th class="schedule__head schedule__head--upper">
+    {{include.track}}
+  </th>
+  {% endif %}
+</tr>

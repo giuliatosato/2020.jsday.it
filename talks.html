@@ -1,0 +1,25 @@
+---
+title: Talks
+css: talks
+---
+
+{% comment %}
+= = = = = = = = = = = = = = = = = = = = = = = = = =
+Please check page contents in the _includes folder.
+= = = = = = = = = = = = = = = = = = = = = = = = = =
+{% endcomment %}
+
+<div class="talks">
+    <div class="container">
+        <div class="section-title">Talks</div>
+        <div>
+            {% for talk in site.data.talks.list %}
+                {% if talk.schedule_only != true %}
+                    {% include talks/talk.html talk=talk %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% include sponsors.html %}

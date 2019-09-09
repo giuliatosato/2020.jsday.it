@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.data.conference.name }} {{ site.data.conference.year }} | {{ site.data.conference.tagline }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/shared.css">
+  <link rel="stylesheet" href="/stylesheets/{{ page.css }}.css">
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+  <meta name="og:title" property="og:title" content="{{ site.data.conference.name }} - {{ site.data.conference.when }} — {{ site.data.conference.where }}" />
+  <meta name="og:url" property="og:url" content="{{ site.baseurl }}" />
+  <meta name="og:description" property="og:description" content="{{ site.data.conference.descr }}. {{ site.data.conference.when }} — {{ site.data.conference.where }}." />
+  <meta name="og:image" property="og:image" content="{{ site.baseurl }}/images/og.png" />
+  <meta name="fb:admins" property="fb:admins" content="710160778" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ site.date.conference.twitter }}" />
+  <meta name="twitter:title" content="{{ site.data.conference.name }} - {{ site.data.conference.when }} — {{ site.data.conference.where }}" />
+  <meta name="twitter:description" content="{{ site.data.conference.descr }}. {{ site.data.conference.when }} — {{ site.data.conference.where }}." />
+  <meta name="twitter:image" content="{{ site.baseurl }}/images/og.png" />
+
+  {% include layout/scripts.html %}
+</head>
+
+<body>
+  {% include layout/header.html %}
+
+  {{ content }}
+
+  {% include layout/footer.html %}
+
+  <!-- Load media partners -->
+  <script src="//www.grusp.org/helpers/{{ site.data.conference.year }}/{{ site.data.conference.media_partners_helper }}"></script>
+
+</body>
+
+</html>
