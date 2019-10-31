@@ -18,7 +18,10 @@ gold:
 
 silver:
   list:
-
+    -
+      url: https://www.voxnest.com/?utm_source=jsday
+      image: voxnest.svg 
+      
 bronze:
   list:
 
