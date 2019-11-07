@@ -13,14 +13,14 @@ platinum:
 gold:
   list:
     -
-      url: https://it.siteground.com/?utm_source=jsday
-      image: siteground.svg
-    -
       url: https://www.flowing.it/?utm_source=jsday
       image: flowing.svg
 
 silver:
   list:
+    -
+      url: https://it.siteground.com/?utm_source=jsday
+      image: siteground.svg
     -
       url: https://www.voxnest.com/?utm_source=jsday
       image: voxnest.svg 
