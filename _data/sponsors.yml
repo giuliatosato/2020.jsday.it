@@ -12,9 +12,6 @@ platinum:
 
 gold:
   list:
-    -
-      url: https://www.flowing.it/?utm_source=jsday
-      image: flowing.svg
 
 silver:
   list:
