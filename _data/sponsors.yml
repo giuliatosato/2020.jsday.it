@@ -21,6 +21,9 @@ silver:
     -
       url: https://www.voxnest.com/?utm_source=jsday
       image: voxnest.svg 
+    -
+      url: https://www.madisoft.it/?utm_source=jsday
+      image: madisoft.svg 
       
 bronze:
   list:
