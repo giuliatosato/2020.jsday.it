@@ -11,7 +11,7 @@ twitter: "@jsconfit"
 facebook: jsday.conference
 media_partners_helper: jsday.js
 domain: jsday.it
-show_cfp: true
+show_cfp: false
 cfp_url: https://cfp.jsday.it/
 scholarships_available: true
 schedule_available: false
