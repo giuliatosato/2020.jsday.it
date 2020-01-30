@@ -8,4 +8,108 @@
 #    last_name:
 #    twitter:
 list:
-
+   -
+    id: carlos-caballerogonzalez
+    description:
+    image: carlos-caballerogonzalez.jpg 
+    first_name: Carlos 
+    last_name: Caballero González
+    twitter: carlillo
+   -
+    id: damien-senger
+    description:
+    image: damien-senger.jpg
+    first_name: Damien
+    last_name: Senger
+    twitter: iamhiwelo
+   -
+    id: dominika-zajac
+    description:
+    image: dominika-zajac.jpg
+    first_name: Dominika
+    last_name: Zając
+    twitter: domizajac
+   -
+    id: eemeli-aro
+    description:
+    image: eemeli-aro.jpg
+    first_name: Eemeli
+    last_name: Aro
+    twitter: eemeli_aro
+   -
+    id: estefania-garciagallardo
+    description: 
+    image: estefania-garciagallardo.jpg
+    first_name: Estefania 
+    last_name: Garcia Gallardo
+    twitter: Nyablk
+   -
+    id: jennifer-wong
+    description:
+    image: jennifer-wong.jpg
+    first_name: Jennifer
+    last_name: Wong
+    twitter: mybluewristband
+   -
+    id: kelechi-oti
+    description:
+    image: kelechi-oti.jpg
+    first_name: Kelechi
+    last_name: Oti
+    twitter: Ot_kelechi
+   -
+    id: liran-tal
+    description:
+    image: liran-tal.jpg
+    first_name: Liran
+    last_name: Tal
+    twitter: liran_tal
+   -
+    id: matteo-collina
+    description:
+    image: matteo-collina.jpg
+    first_name: Matteo
+    last_name: Collina
+    twitter: matteocollina
+   -
+    id: naomi-meyer
+    description:
+    image: naomi-meyer.jpg
+    first_name: Naomi
+    last_name: Meyer
+    twitter: nae_ohmi
+   -
+    id: lucky-nkosi
+    description:
+    image: lucky-nkosi.jpg
+    first_name: Nhlanhla Lucky 
+    last_name: Nkosi
+    twitter: NLucky_Nkosi
+   -
+    id: romain-batby
+    description:
+    image: romain-batby.jpg
+    first_name: Romain
+    last_name: Batby
+    twitter: BatbyRomain
+   -
+    id: talia-nassi
+    description:
+    image: talia-nassi.jpg
+    first_name: Talia
+    last_name: Nassi
+    twitter:
+   -
+    id: trishul-goel
+    description:
+    image: trishul-goel.jpg
+    first_name: Trishul
+    last_name: Goel
+    twitter: trishulgoel
+   -
+    id: yuraima-estevez
+    description:
+    image: yuraima-estevez.jpg
+    first_name: Yuraima
+    last_name: Estevez
+    twitter: yurm04
