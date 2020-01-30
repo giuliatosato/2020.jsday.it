@@ -29,13 +29,13 @@ list:
     first_name: Dominika
     last_name: Zając
     twitter: domizajac
-#   -
-#    id: eemeli-aro
-#    description:
-#    image: eemeli-aro.jpg
-#    first_name: Eemeli
-#    last_name: Aro
-#    twitter: eemeli_aro
+   -
+    id: eemeli-aro
+    description:
+    image: eemeli-aro.jpg
+    first_name: Eemeli
+    last_name: Aro
+    twitter: eemeli_aro
    -
     id: estefania-garciagallardo
     description: 
@@ -53,7 +53,7 @@ list:
    -
     id: kelechi-oti
     description:
-    image: kelechi-oti
+    image: kelechi-oti.jpg
     first_name: Kelechi
     last_name: Oti
     twitter: Ot_kelechi
@@ -81,7 +81,7 @@ list:
    -
     id: lucky-nkosi
     description:
-    image: lucky-nkosi.png
+    image: lucky-nkosi.jpg
     first_name: Nhlanhla Lucky 
     last_name: Nkosi
     twitter: NLucky_Nkosi
