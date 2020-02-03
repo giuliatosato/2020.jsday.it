@@ -8,8 +8,10 @@
                         <a name="{{ speaker.id }}"></a>
                         <a name="slot{{ talk.slot }}"></a>
                         <div class="talk__speaker_item">
-                            <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter}}"
+                            {% if speaker.twitter != "" %}
+                            <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter }}"
                                title="{{ speaker.first_name }} {{ speaker.last_name }}">
+                            {% endif %}
                                 <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
                                 <div>
                                     <div class="talk__name">
@@ -19,7 +21,9 @@
                                         {{ speaker.company }}
                                     </div>
                                 </div>
+                            {% if speaker.twitter != "" %}
                             </a>
+                            {% endif %}
                         </div>
                     {% endif %}
                 {% endfor %}
