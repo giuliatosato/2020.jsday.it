@@ -71,6 +71,14 @@ list:
     how to create scalable, maintainable and extensible applications in the node.js ecosystem.
 -
   speaker_id:
+    - isabela-moreira
+  tags:
+  title: A/B Testing in React: Building Data-Driven UI
+  extract: >
+    Building a good UI is hard. Building a good UI that will delight your users is even harder. 
+    By incorporating A/B testing into your UI, you can stop guessing what your users love and start making data-driven UI decisions! 
+-
+  speaker_id:
     -  jennifer-wong	
   tags:
   title: Compu-mathe-sci-tics
@@ -83,6 +91,16 @@ list:
     and use computer science to do math again! I’ll discuss the history of math, computer science, and JavaScript.
     Then we’ll hop forward in time and do tons of wacky mathematics using JavaScript’s impressively extensive Math
     object. Come with me, and you’ll see, a world of pure mathemagination… in JavaScript.
+-
+  speaker_id:
+    -  joel-lord	
+  tags:
+  title: Building CLI Tools With NodeJS
+  extract: >
+    Nobody questions building back ends with NodeJS anymore. It’s proven itself and is widely accepted as a great platform for web servers. 
+    But have you ever thought of building CLI tools with NodeJS? Turns out that NodeJS is also great at that. 
+    By using just a few simple built-in modules, you can create powerful tools that can be used in terminals in all operating systems. 
+    In this talk, the attendees will learn how to use those modules through some practical code samples and demos.  
 -
   speaker_id:
     - kelechi-oti
