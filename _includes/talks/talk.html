@@ -11,6 +11,9 @@
                             {% if speaker.twitter %}
                             <a class="talk__speaker" href="https://twitter.com/{{ speaker.twitter }}"
                                title="{{ speaker.first_name }} {{ speaker.last_name }}">
+                            {% else %}
+                            <span class="talk__speaker"
+                                  title="{{ speaker.first_name }} {{ speaker.last_name }}">
                             {% endif %}
                                 <div class="talk__picture" style="background-image: url('images/speakers/{{ speaker.image }}')"></div>
                                 <div>
@@ -23,6 +26,9 @@
                                 </div>
                             {% if speaker.twitter %}
                             </a>
+                            {% else %}
+                            <span class="talk__speaker"
+                                  title="{{ speaker.first_name }} {{ speaker.last_name }}">
                             {% endif %}
                         </div>
                     {% endif %}
