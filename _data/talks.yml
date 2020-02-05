@@ -73,7 +73,7 @@ list:
   speaker_id:
     - isabela-moreira
   tags:
-  title: A/B Testing in React: Building Data-Driven UI
+  title: "A/B Testing in React: Building Data-Driven UI"
   extract: >
     Building a good UI is hard. Building a good UI that will delight your users is even harder. 
     By incorporating A/B testing into your UI, you can stop guessing what your users love and start making data-driven UI decisions! 
