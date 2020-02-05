@@ -10,105 +10,119 @@
 list:
    -
     id: carlos-caballerogonzalez
-    description:
+    description: "Carlos Caballero González is a Computer Science Engineer and PhD. in Computer Science from the University of Málaga. Master in Software Engineering and Artificial Intelligence. He is associate professor at the Open University of Catalonia and Full-time teacher in vocational training at the Junta de Andalucía in Computing and Telecommunications. He has written several teaching books and more than a dozen research articles in the first international journals such as the publications in Solar Physics (A Comparative Study of Clustering Methods for Active Region Detection in Solar EUV Images, Automatic tracking of active regions and detection of solar flares on solar EUV images). He is a open source passionate and loves contributing in events. Organiser in @AngularMalaga and @GDGMalaga"
     image: carlos-caballerogonzalez.jpg 
     first_name: Carlos 
     last_name: Caballero González
     twitter: carlillo
    -
     id: damien-senger
-    description:
+    description: "Damien Senger is a Queer Web worker and Tech Speaker living in Rotterdam, The Netherlands. Every day, they design design systems and make accessibility more accessible. Through their work as Design Systems & Accessibility Lead at Castor and their studio, Damien tries to help Web projects to be more accessible and inclusive with a focus on cognitive impairments and collaboration between designers and engineers."
     image: damien-senger.jpg
     first_name: Damien
     last_name: Senger
     twitter: iamhiwelo
    -
     id: dominika-zajac
-    description:
+    description: "Software Engineering Specialist at GE Healthcare in Krakow. An active, well-organized person who fell in love with web and mobile programming. Frontend and mobile developer at GE Healthcare in Cracow. Volunteer, mentor, and organizer of many IT events like Greenlight 4 Girls, Night of Scientists or ngGirls. Passionate about singing, theatre, and IT event organizing."
     image: dominika-zajac.jpg
     first_name: Dominika
     last_name: Zając
     twitter: domizajac
    -
     id: eemeli-aro
-    description:
+    description: Eemeli has discovered that writing code is much more enjoyable when you don’t need to account for your hours to anyone. On the other hand, this does mean that you end up going ever deeper to fix things. He maintains the [`messageformat`](https://www.npmjs.com/package/messageformat) and [`yaml`](https://www.npmjs.com/package/yaml) JS libraries along with a host of others, and actively participates in various efforts to improve JavaScript localization. For work, he mostly develops libraries and tools for customers’ front-end development teams. For fun, he organises science fiction conventions. Eemeli is a voting member of the [OpenJS Foundation](https://openjsf.org/) Cross Project Council, an active participant in ECMA-402 processes, runs the monthly [HelsinkiJS](https://helsinkijs.org/) meetups, and helps organise [React Finland](https://react-finland.fi/) conferences.
     image: eemeli-aro.jpg
     first_name: Eemeli
     last_name: Aro
     twitter: eemeli_aro
    -
     id: estefania-garciagallardo
-    description: 
+    description: Estefanía García Gallardo is a full stack software developer from Málaga, organizer of Angular Málaga, contributor to the open source community, author of the Npkill project and advocate of clean code. As member of the WTM community in Malaga, her goal is to empower women in tech.
     image: estefania-garciagallardo.jpg
     first_name: Estefania 
     last_name: Garcia Gallardo
     twitter: Nyablk
    -
+    id: isabela-moreira
+    description: Isabela is a senior UX engineer at a Seattle-based startup, Cedar AI, focusing on designing and coding user experiences for the freight train industry. Previously at Microsoft and Google, she's found her home wearing many hats in the startup world. Isabela is a huge fan of the intersection of code and design and also loves mechanical keyboards. She's an advocate for women and the disabled community in tech and frequently speaks out on Twitter (https://twitter.com/isabelacmor) and provides tech resources on her blog (https://isabela.dev/)
+    image: isabela-moreira.jpg
+    first_name: Isabela
+    last_name: Moreira
+    twitter: isabelacmor    
+   -
     id: jennifer-wong
-    description:
+    description: Software Engineer at Mode Analytics. Jennifer Wong is a self-taught software engineer. She spends her days making the web a prettier and more user-friendly place. She has written for Net Magazine and Adobe, and had projects covered by Mashable, Engadget, Gizmodo, and more. Jenn is an avid conference and Mozilla Tech speaker. She also loves eating, coding, and sleeping.
     image: jennifer-wong.jpg
     first_name: Jennifer
     last_name: Wong
     twitter: mybluewristband
    -
+    id: joel-lord
+    description: Developer Advocate at Red Hat OpenShift. Joel Lord is passionate about web and technology in general. He likes to learn new things but most of all, he likes to share his discoveries. He does so by travelling at various conferences all across the globe. He graduated from college in computer programming in the last millennium. Apart for a little break to get his BSc in computational astrophysics, he was always in the industry. As a developer advocate with Red Hat OpenShift, he meets with developers to help them make the web better by using best practices around Kubernetes. During his free time, he is usually found stargazing in a camping site somewhere or brewing a fresh batch of beer in his garage.
+    image: joel-lord.jpg
+    first_name: Joel
+    last_name: Lord
+    twitter: joel__lord    
+   -
     id: kelechi-oti
-    description:
+    description: Team lead Frontend at Renmoney. Software engineer, Consultant and Trainer with focus of the user facing part of products.
     image: kelechi-oti.jpg
     first_name: Kelechi
     last_name: Oti
     twitter: Ot_kelechi
    -
     id: liran-tal
-    description:
+    description: Liran Tal is a Developer Advocate at Snyk and a member of the Node.js Security working group. He is a JSHeroes ambassador, passionate about building communities and the open source movement and greatly enjoys pizza, wine, web technologies, and CLIs. Liran is also the author of Essential Node.js Security, a core contributor to OWASP NodeGoat project and loves to dabble about code, testing, and software philosophy.
     image: liran-tal.jpg
     first_name: Liran
     last_name: Tal
     twitter: liran_tal
    -
     id: matteo-collina
-    description:
+    description: Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled "Application Platforms for the Internet of Things". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book "Node.js Cookbook, Third Edition" edited by Packt. In the summer he loves sailing the Sirocco.
     image: matteo-collina.jpg
     first_name: Matteo
     last_name: Collina
     twitter: matteocollina
    -
     id: naomi-meyer
-    description:
+    description: Naomi works as a Software Development Engineer at Adobe in New York City, where she leads internationalization on her team. Before writing JavaScript full time, Naomi worked as a teacher in local classrooms across Asia and West Africa. She is passionate about developing with diversity, inclusion, and internationalization in mind, and enjoys hiking and riding bikes on the weekends.
     image: naomi-meyer.jpg
     first_name: Naomi
     last_name: Meyer
     twitter: nae_ohmi
    -
     id: lucky-nkosi
-    description:
+    description: I work as a Software Engineer in the R&D team of a company called BBD in Johannesburg, South Africa. I have experience in building and maintaining enterprise banking software with varying tech-stacks; all the way from VB6 and .Net to web and cloud technologies. One of my biggest interests is education, particularly using technology to create meaningful educational experiences. To feed this passion, I am currently pursuing a post-graduate degree in Game Design with a focus on educational games from the University of the Witwatersrand in Johannesburg.
     image: lucky-nkosi.jpg
     first_name: Nhlanhla Lucky 
     last_name: Nkosi
     twitter: NLucky_Nkosi
    -
     id: romain-batby
-    description:
+    description: Lead and full stack developer at Theodo. I am passionate about web, ecology and rugby. After retiring from the rugby pitch, I am devoting all my energy to reduce the web impact on our planet.
     image: romain-batby.jpg
     first_name: Romain
     last_name: Batby
     twitter: BatbyRomain
    -
     id: talia-nassi
-    description:
+    description: Talia Nassi is a quality-driven Test Engineer at WeWork with a passion for breaking and rebuilding software to be the highest possible quality. She started interning in QA when she was studying at UC San Diego and immediately knew that she had found her calling. From UCSD she was recruited to work at Visa, where she tested the payment processing system for the Prepaid Cards. After Visa, Talia started at WeWork, where she continues to innovate and do what she loves—deliver high quality software!
     image: talia-nassi.jpg
     first_name: Talia
     last_name: Nassi
     twitter:
    -
     id: trishul-goel
-    description:
+    description: Trishul is a professional frontend developer; writes React code for living and volunteers for Mozilla to justify his existence. He promotes PWAs to developers #teamWeb. He loves to talk about modern Javascript and tries to use it to solve all of his problems, even the domestic ones. He is an expert in developing PWAs and browser extensions.
     image: trishul-goel.jpg
     first_name: Trishul
     last_name: Goel
     twitter: trishulgoel
    -
     id: yuraima-estevez
-    description:
+    description: Yuraima Estevez is a senior software engineer at The New York Times.  She cares deeply about building open source tools, teaches developers how to create inclusive apps, and helps organize the useReactNYC meetup.  Her superpower is saying hello to every dog she sees.
     image: yuraima-estevez.jpg
     first_name: Yuraima
     last_name: Estevez
