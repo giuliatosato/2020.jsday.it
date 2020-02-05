@@ -47,16 +47,16 @@
             <p class="talk__abstract">
                 {{ talk.extract }}
             </p>
-<!--            <p class="talk__bio__title">Bio</p>-->
-<!--            {% for speaker in site.data.speakers.list %}-->
-<!--                {% for talk_speaker_id in talk.speaker_id %}-->
-<!--                    {% if speaker.id == talk_speaker_id %}-->
-<!--                    <p class="talk__bio">-->
-<!--                        {{ speaker.description }}-->
-<!--                    </p>-->
-<!--                    {% endif %}-->
-<!--                {% endfor %}-->
-<!--            {% endfor %}-->
+            <p class="talk__bio__title">Bio</p>
+            {% for speaker in site.data.speakers.list %}
+                {% for talk_speaker_id in talk.speaker_id %}
+                    {% if speaker.id == talk_speaker_id %}
+                    <p class="talk__bio">
+                        {{ speaker.description | markdownify | remove: '<p>' | remove: '</p>' }}
+                    </p>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
         </div>
     </div>
 {% endif %}
