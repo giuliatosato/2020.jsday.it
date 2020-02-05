@@ -11,7 +11,7 @@
 list:
 -
   speaker_id: 
-    - carlos-caballerogonzales
+    - carlos-caballerogonzalez
     - estefania-garciagallardo
   tags:
   title: 'The power of RxJS: Building Flappy Bird in Angular'
