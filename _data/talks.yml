@@ -10,9 +10,9 @@
 
 list:
 -
-  speaker_id: 
-    - carlos-caballerogonzalez
+  speaker_id:
     - estefania-garciagallardo
+    - carlos-caballerogonzalez
   tags:
   title: 'The power of RxJS: Building Flappy Bird in Angular'
   extract: >
@@ -56,8 +56,8 @@ list:
     current specification work is at, and where it might be going next.
 -
   speaker_id:
-    - carlos-caballerogonzales
     - estefania-garciagallardo 
+    - carlos-caballerogonzalez
   tags:
   title: Node.js architecture with Nest (workshop)
   extract: >
