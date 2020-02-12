@@ -16,18 +16,23 @@ gold:
 silver:
   list:
     -
+      url: https://labs.madisoft.it/frontend-developer/?utm_source=jsday
+      image: madisoft.svg 
+    -
+      url: https://www.nearform.com/?utm_source=jsday
+      image: nearform.svg       
+    -
       url: https://it.siteground.com/?utm_source=jsday
       image: siteground.svg
     -
       url: https://www.voxnest.com/?utm_source=jsday
-      image: voxnest.svg 
-    -
-      url: https://labs.madisoft.it/frontend-developer/?utm_source=jsday
-      image: madisoft.svg 
+      image: voxnest.svg       
       
 bronze:
   list:
 
 diversity:
   list:
-
+    -
+      url: https://balsamiq.com/?utm_source=jsday
+      image: balsamiq.svg  
