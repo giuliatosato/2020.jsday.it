@@ -30,6 +30,9 @@ silver:
       
 bronze:
   list:
+    -
+      url: http://stickermule.com/supports/grusp20-sponsorship
+      image: stickermule.svg      
 
 diversity:
   list:
