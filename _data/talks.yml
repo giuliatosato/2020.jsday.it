@@ -11,6 +11,16 @@
 list:
 -
   speaker_id:
+    - alon-kiriati
+  tags:
+  title: Building your first malicious chrome extension
+  extract: >
+    "Building chrome extension is simple & fun. In this talk I will explain the basics of building your first chrome extension, 
+    in just a couple of minutes! We will then speak about the various ways to turn your awesome extension to a malicious one. 
+    The main purpose here is not to turn you into a hacker, but instead to understand the risks of extensions, and to increase 
+    awareness to these "small" and "harmless" plugins."
+-
+  speaker_id:
     - estefania-garciagallardo
     - carlos-caballerogonzalez
   tags:
@@ -69,6 +79,18 @@ list:
     with nodeJS, as well as some good practices. Throughout this workshop, a simple RESTful API will be built with
     several endpoints in which roles, guards, validations etc will be used. The key to this workshop is to discover
     how to create scalable, maintainable and extensible applications in the node.js ecosystem.
+-
+  speaker_id:
+    - gil-tayar
+  tags:
+  title: "Four Pillars and a Base: The Nuts and Bolts of a Monorepo	Monorepos"
+  extract: >
+    Everybody’s talking about them, but nobody’s doing them. Well, we took up the challenge, and are. 
+    What I am going to show is how we implemented a Monorepo project, and why. The nuts and bolts of creating a repo based on npm packages,
+    the structure of the code of the apps in the monorepo, and creating packages with the common code. 
+    Also, and maybe most importantly, how we test the whole thing, how we build the project, how we deploy it in production, 
+    and how we monitor it. It’s going to be a really boring talk, full of lots of tips we learned in blood in the last year of 
+    implementing this. So be prepared to be bored! And, hopefully, educated…
 -
   speaker_id:
     - isabela-moreira
@@ -146,6 +168,20 @@ list:
     development.
 -
   speaker_id:
+    - matteo-rossi
+  tags:
+  title: TypeScript Without TypeScript: Make Your Node.js Codebase Future-Proof One Comment at a Time
+  extract: >
+    Voxnest is the leading platform for dynamic advertising in the podcasting world. 
+    One of the core parts of our proprietary stack is an in-house Ad server, written in Node.js and deployed using serverless technologies,
+    that handles more than 10 million requests per day. In this talk, the Voxnest development team will tell you a classic story of rising 
+    from the trenches of a humble Node.js prototype, in five acts: 1. Running on the green fields (The Prototype); 
+    2. Climbing the first hills (The Traction); 3. The first peak of the mountain (The Climax); 
+    4. Stuck at the basecamp (The Struggle); 5. Back on track to the peak (The Resolution). 
+    The talk will include a particularly deep dive into how Voxnest’s developers dealt with the classic "evolve vs rewrite" dilemma, 
+    and how TypeScript helped them find a sweet spot.
+-
+  speaker_id:
     - naomi-meyer
   tags:
   title: Shareable UI Components and Monorepos
@@ -193,6 +229,19 @@ list:
     how to do it without disrupting real end users, and how to exclude testing data from data and analytics. I will also
     talk about the tools that help in this process, the benefits of testing in production, why the pros outweigh the cons,
     and why it's more reliable.
+-
+  speaker_id:
+    - tom-hazledine
+  tags:
+  title: Building a Delay: Recreating an Analogue Delay Pedal with the Web Audio API, JS, and CSS
+  extract: >
+    This talk is a high-level introduction to the Web Audio API, focussing on the concept of a "signal path", and how this translates into
+    JavaScript. Our mission will be to recreate an analogue delay pedal in the browser (and add in some CSS and SVG just for fun!). 
+    We'll generate some simple sounds, and then apply "delay time" and "feedback level" to our browser's signal path. 
+    We'll also look at how we get from `source` (an audio file or input stream) to `destination` (speakers or headphones). 
+    The overall aim is to create a greater awareness of power of the Web Audio API; you can do a lot more with audio in the browser 
+    than people think you can. Along the way, we'll also see that CSS isn't a scary mess. It can be precise and beautiful (and fun!). 
+    Web development can be fun; the browser is a quick and easy environment to code for (if creativity and experimentation are your goals).
 -
   speaker_id:
     - trishul-goel
