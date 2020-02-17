@@ -9,6 +9,18 @@
 #    twitter:
 list:
    -
+    id: alon-kiriati
+    description: |
+     Alon is a tech lead and a full stack developer at Dropbox. Throughout the last 15 years he has worked at companies of many shapes and 
+     sizes - from 3 people start ups, to mid size companies,  to 1,000+ corporates, and learned valuable lessons from each position he’s held.
+     He’s used a wide variety of languages and frameworks from the very low level of RT/Embedded and all the way up to react.js. 
+     Alon is enthusiastic about culture, tech, product & ping pong, and believes everything in the world can be expressed with emojis. 
+    image: alon-kiriati.jpg 
+    first_name: Alon 
+    last_name: Kiriati
+    twitter: akiriati
+    
+   -
     id: carlos-caballerogonzalez
     description: |
      Carlos Caballero González is a Computer Science Engineer and PhD. in Computer Science from the University of Málaga.
@@ -69,6 +81,17 @@ list:
     first_name: Estefania 
     last_name: Garcia Gallardo
     twitter: Nyablk
+   -
+    id: gil-tayar
+    description: |
+     From the olden days of DOS, Gil was, is, and always will be a software developer. He has co-founded WebCollage, survived the bubble 
+     collapses, and designed cloudy projects at Wix. His current passion is figuring out how to test software, 
+     a passion which he has turned into his main job as Senior Architect at Applitools, where he develops tests for software 
+     that tests software, which is almost one meta layer too many for him. 
+    image: gil-tayar.jpg
+    first_name: Gil 
+    last_name: Tayar
+    twitter: giltayar    
    -
     id: isabela-moreira
     description: |
@@ -141,6 +164,17 @@ list:
     last_name: Collina
     twitter: matteocollina
    -
+    id: matteo-rossi
+    description: |
+     Frontend engineer @voxnest and @spreaker. More than ten years ago I was a sad journalist with a great passion for coding... 
+     now I'm an happy developer having fun with my job! I work in [Voxnest](https://www.voxnest.com), one of the bigger company in the 
+     world of podcast. 
+    image: matteo-rossi.jpg
+    first_name: Matteo
+    last_name: Rossi
+    twitter: teorossi    
+ 
+   -
     id: naomi-meyer
     description: |
      Naomi works as a Software Development Engineer at Adobe in New York City, where she leads internationalization on
@@ -183,7 +217,18 @@ list:
     image: talia-nassi.jpg
     first_name: Talia
     last_name: Nassi
-    twitter:
+    twitter: 
+   -
+    id: tom-hazledine
+    description: |
+     Tom is a Senior Frontend Developer at Cronofy, a unified calendar API for SaaS businesses. A keen tinkerer of technology, 
+     Tom often combines his love of web development and music, and has created a catalogue of browser-based FX modules interfacing 
+     with more traditional music equipment. Tom is the co-host of A Question of Code, a podcast where a newbie coder and a seasoned 
+     veteran discuss the questions that always come up when someone begins learning to code.
+    image: tom-hazledine.jpg
+    first_name: Tom
+    last_name: Hazledine
+    twitter: thomashazledine
    -
     id: trishul-goel
     description: |
