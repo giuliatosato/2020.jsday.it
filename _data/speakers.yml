@@ -139,6 +139,17 @@ list:
     last_name: Oti
     twitter: Ot_kelechi
    -
+    id: keyfer-mathewson
+    description: |
+     I'm a software engineer and engineering manager with over 10 years experience. I'm currently at Shopify, making commerce better for everyone. 
+     I live in Ottawa, Canada, with my wonderful wife Sammy, and our dog Poppy. 
+     I care deeply about laughter and have currently fallen in love with Brazilian Jiu-Jitsu. 
+     I feel an earnest desire to increase the stock of harmless cheerfulness and to support those around me.
+    image: keyfer-mathewson.jpg
+    first_name: Keyfer 
+    last_name: Mathewson
+    twitter: keyfermath    	
+   -
     id: liran-tal
     description: |
      Liran Tal is a Developer Advocate at Snyk and a member of the Node.js Security working group. He is a JSHeroes
@@ -209,15 +220,14 @@ list:
    -
     id: talia-nassi
     description: |
-     Talia Nassi is a quality-driven Test Engineer at WeWork with a passion for breaking and rebuilding software to be
-     the highest possible quality. She started interning in QA when she was studying at UC San Diego and immediately
-     knew that she had found her calling. From UCSD she was recruited to work at Visa, where she tested the payment
-     processing system for the Prepaid Cards. After Visa, Talia started at WeWork, where she continues to innovate and
-     do what she loves—deliver high quality software!
+     Developer Advocate at Split Software. Talia Nassi is an international keynote speaker who gives conference talks on all things testing and quality. 
+     She is a developer advocate at Split.io where she works closely with engineering teams globally to ship software more efficiently. 
+     She is passionate about feature flagging, canary launches, CI/CD, testing in production, and A/B testing. 
+     She has spoken at countless conferences internationally, ranging from audiences of 100 to 2000!
     image: talia-nassi.jpg
     first_name: Talia
     last_name: Nassi
-    twitter: 
+    twitter: talia_nassi
    -
     id: tom-hazledine
     description: |
