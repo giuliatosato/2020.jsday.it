@@ -136,6 +136,15 @@ list:
     security considerations and walk the audience through this in such a way that beginners are also carried along.
 -
   speaker_id:
+    - keyfer-mathewson
+  tags:
+  title: EEG in the browser: How JavaScript can make you healthier
+  extract: >
+    This talk explores a project I worked on for the University of Alberta, where we build a web-based EEG monitor using React and RxJS. 
+    Using these technologies we can stream live EEG data to the browser, process it in real-time, and begin to look for patterns or irregularities. 
+    The project was complex and incredible to work on, and the use cases are still being discovered. 
+-
+  speaker_id:
     - liran-tal
   tags:
   title: 'Packages for mass consumption: the mechanics of npm dependencies'
