@@ -13,11 +13,11 @@ list:
   speaker_id:
     - alon-kiriati
   tags:
-  title: Building your first malicious chrome extension
+  title: 'Building your first malicious chrome extension'
   extract: >
-    "Building chrome extension is simple & fun. In this talk I will explain the basics of building your first chrome extension, 
-    in just a couple of minutes! We will then speak about the various ways to turn your awesome extension to a malicious one. 
-    The main purpose here is not to turn you into a hacker, but instead to understand the risks of extensions, and to increase 
+    "Building chrome extension is simple & fun. In this talk I will explain the basics of building your first chrome extension,
+    in just a couple of minutes! We will then speak about the various ways to turn your awesome extension to a malicious one.
+    The main purpose here is not to turn you into a hacker, but instead to understand the risks of extensions, and to increase
     awareness to these "small" and "harmless" plugins."
 -
   speaker_id:
@@ -31,7 +31,7 @@ list:
     use of RxJS operators, as well as the latest versions of powerful web technologies like Angular and Pixi.js
 -
   speaker_id:
-    - damien-senger	
+    - damien-senger
   tags:
   title: 'Responsible responsive typography: a crash-course on variable fonts and accessibility'
   extract: >
@@ -43,7 +43,7 @@ list:
   speaker_id:
     - dominika-zajac
   tags:
-  title: How AI can boost your app development process?
+  title: 'How AI can boost your app development process?'
   extract: >
     I'm a person who hates boring, repetitive work, so I'm always looking for a way to avoid it. It's how my master
     thesis project was designed. Based on existing solutions I built my AI-based tool to autogenerate the app's interface
@@ -56,7 +56,7 @@ list:
   speaker_id:
     - eemeli-aro
   tags:
-  title: The State of the Art in Localization
+  title: 'The State of the Art in Localization'
   extract: >
     A review of the current tools, libraries and specifications available for localization and message formatting in
     JavaScript. Covering everything from recent additions to the language to framework-specific front-end libraries and
@@ -66,10 +66,10 @@ list:
     current specification work is at, and where it might be going next.
 -
   speaker_id:
-    - estefania-garciagallardo 
+    - estefania-garciagallardo
     - carlos-caballerogonzalez
   tags:
-  title: Node.js architecture with Nest (workshop)
+  title: 'Node.js architecture with Nest (workshop)'
   extract: >
     Nest is a framework for building efficient and scalable web applications using nodeJS. Built with TypeScript, with
     the software design architecture applied by Angular. For this, concepts such as controllers, models, ORMs,
@@ -83,27 +83,27 @@ list:
   speaker_id:
     - gil-tayar
   tags:
-  title: "Four Pillars and a Base: The Nuts and Bolts of a Monorepo	Monorepos"
+  title: 'Four Pillars and a Base: The Nuts and Bolts of a Monorepo'
   extract: >
-    Everybody’s talking about them, but nobody’s doing them. Well, we took up the challenge, and are. 
+    Everybody’s talking about them, but nobody’s doing them. Well, we took up the challenge, and are.
     What I am going to show is how we implemented a Monorepo project, and why. The nuts and bolts of creating a repo based on npm packages,
-    the structure of the code of the apps in the monorepo, and creating packages with the common code. 
-    Also, and maybe most importantly, how we test the whole thing, how we build the project, how we deploy it in production, 
-    and how we monitor it. It’s going to be a really boring talk, full of lots of tips we learned in blood in the last year of 
+    the structure of the code of the apps in the monorepo, and creating packages with the common code.
+    Also, and maybe most importantly, how we test the whole thing, how we build the project, how we deploy it in production,
+    and how we monitor it. It’s going to be a really boring talk, full of lots of tips we learned in blood in the last year of
     implementing this. So be prepared to be bored! And, hopefully, educated…
 -
   speaker_id:
     - isabela-moreira
   tags:
-  title: "A/B Testing in React: Building Data-Driven UI"
+  title: 'A/B Testing in React: Building Data-Driven UI'
   extract: >
-    Building a good UI is hard. Building a good UI that will delight your users is even harder. 
-    By incorporating A/B testing into your UI, you can stop guessing what your users love and start making data-driven UI decisions! 
+    Building a good UI is hard. Building a good UI that will delight your users is even harder.
+    By incorporating A/B testing into your UI, you can stop guessing what your users love and start making data-driven UI decisions!
 -
   speaker_id:
-    -  jennifer-wong	
+    -  jennifer-wong
   tags:
-  title: Compu-mathe-sci-tics
+  title: 'Compu-mathe-sci-tics'
   extract: >
     Math. Computer science. Computers were invented to do complicated mathematics. But JavaScript wasn’t. It was
     created to assemble components and be written directly in web page markup. So how does Math fit into all of this?
@@ -115,19 +115,19 @@ list:
     object. Come with me, and you’ll see, a world of pure mathemagination… in JavaScript.
 -
   speaker_id:
-    -  joel-lord	
+    -  joel-lord
   tags:
-  title: Building CLI Tools With NodeJS
+  title: 'Building CLI Tools With NodeJS'
   extract: >
-    Nobody questions building back ends with NodeJS anymore. It’s proven itself and is widely accepted as a great platform for web servers. 
-    But have you ever thought of building CLI tools with NodeJS? Turns out that NodeJS is also great at that. 
-    By using just a few simple built-in modules, you can create powerful tools that can be used in terminals in all operating systems. 
-    In this talk, the attendees will learn how to use those modules through some practical code samples and demos.  
+    Nobody questions building back ends with NodeJS anymore. It’s proven itself and is widely accepted as a great platform for web servers.
+    But have you ever thought of building CLI tools with NodeJS? Turns out that NodeJS is also great at that.
+    By using just a few simple built-in modules, you can create powerful tools that can be used in terminals in all operating systems.
+    In this talk, the attendees will learn how to use those modules through some practical code samples and demos.
 -
   speaker_id:
     - kelechi-oti
   tags:
-  title: How vulnerable is your App? and how to fix it.
+  title: 'How vulnerable is your App? and how to fix it.'
   extract: >
     The essence of this talk is enlightening frontend developers of security risks, how to spot them and fix them.
     The techniques discussed in this talk are framework agnostic so it can be applied to all JS frameworks, from my
@@ -160,7 +160,7 @@ list:
   speaker_id:
     - matteo-collina
   tags:
-  title: Node.js has grown up!
+  title: 'Node.js has grown up!'
   extract: >
     Node.js has crossed the 10 year mark, and it’s about time to reflect on how the project grow up to become one of
     the pillars of application development on the Web and beyond. We’ll cover the history of Node.js from the iconic
@@ -170,21 +170,21 @@ list:
   speaker_id:
     - matteo-rossi
   tags:
-  title: TypeScript Without TypeScript: Make Your Node.js Codebase Future-Proof One Comment at a Time
+  title: 'TypeScript Without TypeScript: Make Your Node.js Codebase Future-Proof One Comment at a Time'
   extract: >
-    Voxnest is the leading platform for dynamic advertising in the podcasting world. 
+    Voxnest is the leading platform for dynamic advertising in the podcasting world.
     One of the core parts of our proprietary stack is an in-house Ad server, written in Node.js and deployed using serverless technologies,
-    that handles more than 10 million requests per day. In this talk, the Voxnest development team will tell you a classic story of rising 
-    from the trenches of a humble Node.js prototype, in five acts: 1. Running on the green fields (The Prototype); 
-    2. Climbing the first hills (The Traction); 3. The first peak of the mountain (The Climax); 
-    4. Stuck at the basecamp (The Struggle); 5. Back on track to the peak (The Resolution). 
-    The talk will include a particularly deep dive into how Voxnest’s developers dealt with the classic "evolve vs rewrite" dilemma, 
+    that handles more than 10 million requests per day. In this talk, the Voxnest development team will tell you a classic story of rising
+    from the trenches of a humble Node.js prototype, in five acts: 1. Running on the green fields (The Prototype);
+    2. Climbing the first hills (The Traction); 3. The first peak of the mountain (The Climax);
+    4. Stuck at the basecamp (The Struggle); 5. Back on track to the peak (The Resolution).
+    The talk will include a particularly deep dive into how Voxnest’s developers dealt with the classic "evolve vs rewrite" dilemma,
     and how TypeScript helped them find a sweet spot.
 -
   speaker_id:
     - naomi-meyer
   tags:
-  title: Shareable UI Components and Monorepos
+  title: 'Shareable UI Components and Monorepos'
   extract: >
     On the Adobe Experience Platform (AEP) we are building a shareable UI ecosystem with a monolithic monorepo and
     compact components that can be easily reused and shared. We will go over details of our npm set up and best practices
@@ -193,7 +193,7 @@ list:
   speaker_id:
     - lucky-nkosi
   tags:
-  title: Flying a drone with twitter, bananas & Web APIs
+  title: 'Flying a drone with twitter, bananas & Web APIs'
   extract: >
     The web is fast becoming the main means through which people interact with all sorts of technologies. With every
     new invention, users ask "but can it work with a browser?" With Web APIs, the answer is almost always yes; even to
@@ -204,9 +204,9 @@ list:
     is for you.
 -
   speaker_id:
-    - romain-batby 
+    - romain-batby
   tags:
-  title: Help save the planet, one web page at a time
+  title: 'Help save the planet, one web page at a time'
   extract: >
     The web has an ecological impact. We know it, that is a fact. As a concerned citizen and a web developer, I have
     been trying to reduce the web’s impact for a year. But what impact exactly? When it is time to estimate the impact,
@@ -217,7 +217,7 @@ list:
   speaker_id:
     - talia-nassi
   tags:
-  title: Testing in Production
+  title: 'Testing in Production'
   extract: >
     Testing in production is the only way to know that your software is working right now in production. It not only
     increases developer confidence in the code, but also increases development velocity because you will spend less
@@ -233,20 +233,20 @@ list:
   speaker_id:
     - tom-hazledine
   tags:
-  title: Building a Delay: Recreating an Analogue Delay Pedal with the Web Audio API, JS, and CSS
+  title: 'Building a Delay: Recreating an Analogue Delay Pedal with the Web Audio API, JS, and CSS'
   extract: >
     This talk is a high-level introduction to the Web Audio API, focussing on the concept of a "signal path", and how this translates into
-    JavaScript. Our mission will be to recreate an analogue delay pedal in the browser (and add in some CSS and SVG just for fun!). 
-    We'll generate some simple sounds, and then apply "delay time" and "feedback level" to our browser's signal path. 
-    We'll also look at how we get from `source` (an audio file or input stream) to `destination` (speakers or headphones). 
-    The overall aim is to create a greater awareness of power of the Web Audio API; you can do a lot more with audio in the browser 
-    than people think you can. Along the way, we'll also see that CSS isn't a scary mess. It can be precise and beautiful (and fun!). 
+    JavaScript. Our mission will be to recreate an analogue delay pedal in the browser (and add in some CSS and SVG just for fun!).
+    We'll generate some simple sounds, and then apply "delay time" and "feedback level" to our browser's signal path.
+    We'll also look at how we get from `source` (an audio file or input stream) to `destination` (speakers or headphones).
+    The overall aim is to create a greater awareness of power of the Web Audio API; you can do a lot more with audio in the browser
+    than people think you can. Along the way, we'll also see that CSS isn't a scary mess. It can be precise and beautiful (and fun!).
     Web development can be fun; the browser is a quick and easy environment to code for (if creativity and experimentation are your goals).
 -
   speaker_id:
     - trishul-goel
   tags:
-  title: Privacy by design
+  title: 'Privacy by design'
   extract: >
     Every other website on the internet uses third party trackers to improve their product and provide better user
     experience, which eventually leads to a compromise in user privacy. As developers, we are responsible for making
@@ -257,7 +257,7 @@ list:
   speaker_id:
     - yuraima-estevez
   tags:
-  title: How to do Good Without Doing Anything
+  title: 'How to do Good Without Doing Anything'
   extract: >
     There’s no arguing that building accessible websites is a force for good. Everyone, regardless of ability or
     disability, ought to have the right to participate on the web. But ensuring that our websites and apps work for
