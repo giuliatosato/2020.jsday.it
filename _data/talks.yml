@@ -11,14 +11,25 @@
 list:
 -
   speaker_id:
+    - keyfer-mathewson
+  tags:
+  title: 'EEG in the browser: How JavaScript can make you healthier'
+  extract: >
+    This talk explores a project I worked on for the University of Alberta, where we build a web-based EEG monitor using
+    React and RxJS. Using these technologies we can stream live EEG data to the browser, process it in real-time, and
+    begin to look for patterns or irregularities. The project was complex and incredible to work on, and the use cases
+    are still being discovered. I am beginning to write this talk now, as I build it, but if you have a Muse device you
+    can see the MVP demo here: https://eegedu.com/
+-
+  speaker_id:
     - alon-kiriati
   tags:
   title: 'Building your first malicious chrome extension'
   extract: >
-    "Building chrome extension is simple & fun. In this talk I will explain the basics of building your first chrome extension,
+    Building chrome extension is simple & fun. In this talk I will explain the basics of building your first chrome extension,
     in just a couple of minutes! We will then speak about the various ways to turn your awesome extension to a malicious one.
     The main purpose here is not to turn you into a hacker, but instead to understand the risks of extensions, and to increase
-    awareness to these "small" and "harmless" plugins."
+    awareness to these "small" and "harmless" plugins.
 -
   speaker_id:
     - estefania-garciagallardo
