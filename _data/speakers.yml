@@ -117,17 +117,6 @@ list:
     last_name: Moreira
     twitter: isabelacmor
    -
-    id: jennifer-wong
-    description: |
-     Software Engineer at Mode Analytics. Jennifer Wong is a self-taught software engineer. She spends her days making
-     the web a prettier and more user-friendly place. She has written for Net Magazine and Adobe, and had projects
-     covered by Mashable, Engadget, Gizmodo, and more. Jenn is an avid conference and Mozilla Tech speaker. She also
-     loves eating, coding, and sleeping.
-    image: jennifer-wong.jpg
-    first_name: Jennifer
-    last_name: Wong
-    twitter: mybluewristband
-   -
     id: joel-lord
     description: |
      Developer Advocate at Red Hat OpenShift. Joel Lord is passionate about web and technology in general. He likes to
