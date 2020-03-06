@@ -9,12 +9,18 @@ platinum:
     -
       url: https://www.workwave.com/?utm_source=jsday
       image: workwave.svg
+    -
+      url: http://www.ynap.com/?utm_source=jsday
+      image: ynap.svg      
 
 gold:
   list:
 
 silver:
   list:
+    -
+      url: https://www.facile.it/?utm_source=jsday
+      image: facile.svg 
     -
       url: https://labs.madisoft.it/frontend-developer/?utm_source=jsday
       image: madisoft.svg 
@@ -26,7 +32,7 @@ silver:
       image: siteground.svg
     -
       url: https://www.voxnest.com/?utm_source=jsday
-      image: voxnest.svg       
+      image: voxnest.svg
       
 bronze:
   list:
