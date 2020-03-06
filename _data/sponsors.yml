@@ -32,7 +32,7 @@ silver:
       image: siteground.svg
     -
       url: https://www.voxnest.com/?utm_source=jsday
-      image: voxnest.svg           
+      image: voxnest.svg
       
 bronze:
   list:
