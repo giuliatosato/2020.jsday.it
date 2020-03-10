@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stylesheets/shared.css">
   <link rel="stylesheet" href="/stylesheets/{{ page.css }}.css">
+  <link rel="stylesheet" href="/stylesheets/alert.css">
   <link rel="icon" type="image/png" href="/images/favicon.png" />
 
   <meta name="og:title" property="og:title" content="{{ site.data.conference.name }} - {{ site.data.conference.when }} — {{ site.data.conference.where }}" />
@@ -26,6 +27,7 @@
 </head>
 
 <body>
+  {% include layout/alert.html %}
   {% include layout/header.html %}
 
   {{ content }}
