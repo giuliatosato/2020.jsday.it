@@ -112,20 +112,6 @@ list:
     By incorporating A/B testing into your UI, you can stop guessing what your users love and start making data-driven UI decisions!
 -
   speaker_id:
-    -  jennifer-wong
-  tags:
-  title: 'Compu-mathe-sci-tics'
-  extract: >
-    Math. Computer science. Computers were invented to do complicated mathematics. But JavaScript wasn’t. It was
-    created to assemble components and be written directly in web page markup. So how does Math fit into all of this?
-    Well, JavaScript has had a Math object since its inception in 1997. Sooo, exactly how much math can we do with
-    JavaScript? Let’s do some exploration together. From sine to log to hypotenuse, we’ll wind our way through the
-    Math object in JavaScript and see just how closely we can mimic a graphing calculator. Let’s travel back in time
-    and use computer science to do math again! I’ll discuss the history of math, computer science, and JavaScript.
-    Then we’ll hop forward in time and do tons of wacky mathematics using JavaScript’s impressively extensive Math
-    object. Come with me, and you’ll see, a world of pure mathemagination… in JavaScript.
--
-  speaker_id:
     -  joel-lord
   tags:
   title: 'Building CLI Tools With NodeJS'
@@ -240,19 +226,6 @@ list:
     how to do it without disrupting real end users, and how to exclude testing data from data and analytics. I will also
     talk about the tools that help in this process, the benefits of testing in production, why the pros outweigh the cons,
     and why it's more reliable.
--
-  speaker_id:
-    - tom-hazledine
-  tags:
-  title: 'Building a Delay: Recreating an Analogue Delay Pedal with the Web Audio API, JS, and CSS'
-  extract: >
-    This talk is a high-level introduction to the Web Audio API, focussing on the concept of a "signal path", and how this translates into
-    JavaScript. Our mission will be to recreate an analogue delay pedal in the browser (and add in some CSS and SVG just for fun!).
-    We'll generate some simple sounds, and then apply "delay time" and "feedback level" to our browser's signal path.
-    We'll also look at how we get from `source` (an audio file or input stream) to `destination` (speakers or headphones).
-    The overall aim is to create a greater awareness of power of the Web Audio API; you can do a lot more with audio in the browser
-    than people think you can. Along the way, we'll also see that CSS isn't a scary mess. It can be precise and beautiful (and fun!).
-    Web development can be fun; the browser is a quick and easy environment to code for (if creativity and experimentation are your goals).
 -
   speaker_id:
     - trishul-goel
