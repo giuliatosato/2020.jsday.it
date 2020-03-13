@@ -106,17 +106,6 @@ list:
     last_name: Moreira
     twitter: isabelacmor
    -
-    id: jennifer-wong
-    description: |
-     Software Engineer at Mode Analytics. Jennifer Wong is a self-taught software engineer. She spends her days making
-     the web a prettier and more user-friendly place. She has written for Net Magazine and Adobe, and had projects
-     covered by Mashable, Engadget, Gizmodo, and more. Jenn is an avid conference and Mozilla Tech speaker. She also
-     loves eating, coding, and sleeping.
-    image: jennifer-wong.jpg
-    first_name: Jennifer
-    last_name: Wong
-    twitter: mybluewristband
-   -
     id: joel-lord
     description: |
      Developer Advocate at Red Hat OpenShift. Joel Lord is passionate about web and technology in general. He likes to
@@ -231,17 +220,6 @@ list:
     first_name: Talia
     last_name: Nassi
     twitter: talia_nassi
-   -
-    id: tom-hazledine
-    description: |
-     Tom is a Senior Frontend Developer at Cronofy, a unified calendar API for SaaS businesses. A keen tinkerer of technology,
-     Tom often combines his love of web development and music, and has created a catalogue of browser-based FX modules interfacing
-     with more traditional music equipment. Tom is the co-host of A Question of Code, a podcast where a newbie coder and a seasoned
-     veteran discuss the questions that always come up when someone begins learning to code.
-    image: tom-hazledine.jpg
-    first_name: Tom
-    last_name: Hazledine
-    twitter: thomashazledine
    -
     id: trishul-goel
     description: |
