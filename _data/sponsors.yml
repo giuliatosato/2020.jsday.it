@@ -9,9 +9,9 @@ platinum:
     -
       url: https://www.workwave.com/?utm_source=jsday
       image: workwave.svg
-    -
-      url: http://www.ynap.com/?utm_source=jsday
-      image: ynap.svg      
+   # -
+   #   url: http://www.ynap.com/?utm_source=jsday
+   #   image: ynap.svg      
 
 gold:
   list:
