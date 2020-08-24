@@ -354,7 +354,7 @@ a {
   border-radius: 2px;
   height: auto;
   margin-bottom: .25rem;
-  max-width: 6.25rem;
+  width: 6.25rem;
   transition: border .24s;
 }
 
