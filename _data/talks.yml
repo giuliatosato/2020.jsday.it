@@ -9,37 +9,7 @@
 #    Abstract here
 
 list:
--
-  speaker_id:
-    - keyfer-mathewson
-  tags:
-  title: 'EEG in the browser: How JavaScript can make you healthier'
-  extract: >
-    This talk explores a project I worked on for the University of Alberta, where we build a web-based EEG monitor using
-    React and RxJS. Using these technologies we can stream live EEG data to the browser, process it in real-time, and
-    begin to look for patterns or irregularities. The project was complex and incredible to work on, and the use cases
-    are still being discovered. I am beginning to write this talk now, as I build it, but if you have a Muse device you
-    can see the MVP demo here: https://eegedu.com/
--
-  speaker_id:
-    - alon-kiriati
-  tags:
-  title: 'Building your first malicious chrome extension'
-  extract: >
-    Building chrome extension is simple & fun. In this talk I will explain the basics of building your first chrome extension,
-    in just a couple of minutes! We will then speak about the various ways to turn your awesome extension to a malicious one.
-    The main purpose here is not to turn you into a hacker, but instead to understand the risks of extensions, and to increase
-    awareness to these "small" and "harmless" plugins.
--
-  speaker_id:
-    - estefania-garciagallardo
-    - carlos-caballerogonzalez
-  tags:
-  title: 'The power of RxJS: Building Flappy Bird in Angular'
-  extract: >
-    To introduce reactive programming in with RxJS, we will be building the famous Flappy Bird minigame. We will cover
-    everything from the basic concepts of reactive programming (observables, observers, subscriptions etc) to an advanced
-    use of RxJS operators, as well as the latest versions of powerful web technologies like Angular and Pixi.js
+
 -
   speaker_id:
     - damien-senger
@@ -52,46 +22,6 @@ list:
     performance requirements and creativity to deliver accessible and inclusive reading experiences using variable fonts.
 -
   speaker_id:
-    - dominika-zajac
-  tags:
-  title: 'How AI can boost your app development process?'
-  extract: >
-    I'm a person who hates boring, repetitive work, so I'm always looking for a way to avoid it. It's how my master
-    thesis project was designed. Based on existing solutions I built my AI-based tool to autogenerate the app's interface
-    in Nativescript from hand-written sketches. Thanks to that you can generate in some seconds a full app interface in
-    some seconds and during the first meeting with clients collect much better feedback than normally, avoid wasting
-    time and money for changes during development. And even it's not perfect (yet!) I believe it's an interesting way
-    for future front-end development. During my talk, I want to show not only my approach but also the other ones that
-    may help you decrease the time needed for app deployment: AI-based (like UIzard) and "traditional" ones like Figma or JHipster.
--
-  speaker_id:
-    - eemeli-aro
-  tags:
-  title: 'The State of the Art in Localization'
-  extract: >
-    A review of the current tools, libraries and specifications available for localization and message formatting in
-    JavaScript. Covering everything from recent additions to the language to framework-specific front-end libraries and
-    server-side tools. What to take into account when selecting your own solutions, including integration with other
-    languages and systems as well as the needs and expectations of translators. Noting in particular which early decisions
-    are significant and hard to reverse later, and which are trivial to refactor. Also featuring a look at where the
-    current specification work is at, and where it might be going next.
--
-  speaker_id:
-    - estefania-garciagallardo
-    - carlos-caballerogonzalez
-  tags:
-  title: 'Node.js architecture with Nest (workshop)'
-  extract: >
-    Nest is a framework for building efficient and scalable web applications using nodeJS. Built with TypeScript, with
-    the software design architecture applied by Angular. For this, concepts such as controllers, models, ORMs,
-    middleware, pipes, guards, interceptors, dependency injection, unit tests and e2e are available. In addition,
-    NestJS allows the use of websockets, microservices or graphQL. The goal of this workshop, is to learn how to start
-    an application with Nest, in addition to learning how to increase productivity when creating server-side applications
-    with nodeJS, as well as some good practices. Throughout this workshop, a simple RESTful API will be built with
-    several endpoints in which roles, guards, validations etc will be used. The key to this workshop is to discover
-    how to create scalable, maintainable and extensible applications in the node.js ecosystem.
--
-  speaker_id:
     - gil-tayar
   tags:
   title: 'Four Pillars and a Base: The Nuts and Bolts of a Monorepo'
@@ -102,14 +32,6 @@ list:
     Also, and maybe most importantly, how we test the whole thing, how we build the project, how we deploy it in production,
     and how we monitor it. It’s going to be a really boring talk, full of lots of tips we learned in blood in the last year of
     implementing this. So be prepared to be bored! And, hopefully, educated…
--
-  speaker_id:
-    - isabela-moreira
-  tags:
-  title: 'A/B Testing in React: Building Data-Driven UI'
-  extract: >
-    Building a good UI is hard. Building a good UI that will delight your users is even harder.
-    By incorporating A/B testing into your UI, you can stop guessing what your users love and start making data-driven UI decisions!
 -
   speaker_id:
     -  joel-lord
@@ -141,51 +63,17 @@ list:
     dependencies work, the mechanics of lockfiles, and understand the security risks of an entire ecosystem. This talk
     will unravel multiple dimensions in which our application relies on dependencies, and present best practices for
     ideal developer experience and team collaboration workflows.
--
-  speaker_id:
-    - liran-tal
-  tags:
-  title: 'Hands-on JavaScript Security Workshop: How safe is your application?'
-  extract: >
-    Security issues and cybercrime are rising to an alarming rate. As a JavaScript web developer, you should be aware
-    of how important security and securing your client's data is. In this workshop, you will become the hacker and you
-    will exploit vulnerabilities in packages that exist in the wild that might be part of your JavaScript &amp; Node.js
-    applications today. We will also show you how to protect yourself to these threats by building up a pipeline and
-    development workflow with security testing in mind. This practical hands-on session will be fun and leave you with
-    actionable takeaways on how to implement DevSecOps and prepare against the big bad world.
--
-  speaker_id:
-    - matteo-collina
-  tags:
-  title: 'Node.js has grown up!'
-  extract: >
-    Node.js has crossed the 10 year mark, and it’s about time to reflect on how the project grow up to become one of
-    the pillars of application development on the Web and beyond. We’ll cover the history of Node.js from the iconic
-    JSConf.EU talk to the Node.js Foundation, to new APIs like worker_thread, looking to the next 10 years of Node.js
-    development.
--
-  speaker_id:
-    - matteo-rossi
-  tags:
-  title: 'TypeScript Without TypeScript: Make Your Node.js Codebase Future-Proof One Comment at a Time'
-  extract: >
-    Voxnest is the leading platform for dynamic advertising in the podcasting world.
-    One of the core parts of our proprietary stack is an in-house Ad server, written in Node.js and deployed using serverless technologies,
-    that handles more than 10 million requests per day. In this talk, the Voxnest development team will tell you a classic story of rising
-    from the trenches of a humble Node.js prototype, in five acts: 1. Running on the green fields (The Prototype);
-    2. Climbing the first hills (The Traction); 3. The first peak of the mountain (The Climax);
-    4. Stuck at the basecamp (The Struggle); 5. Back on track to the peak (The Resolution).
-    The talk will include a particularly deep dive into how Voxnest’s developers dealt with the classic "evolve vs rewrite" dilemma,
-    and how TypeScript helped them find a sweet spot.
--
-  speaker_id:
-    - naomi-meyer
-  tags:
-  title: 'Shareable UI Components and Monorepos'
-  extract: >
-    On the Adobe Experience Platform (AEP) we are building a shareable UI ecosystem with a monolithic monorepo and
-    compact components that can be easily reused and shared. We will go over details of our npm set up and best practices
-    we've learned along the way.
+
+#-
+#  speaker_id:
+#    - matteo-collina
+#  tags:
+#  title: 'Node.js has grown up!'
+#  extract: >
+#    Node.js has crossed the 10 year mark, and it’s about time to reflect on how the project grow up to become one of
+#    the pillars of application development on the Web and beyond. We’ll cover the history of Node.js from the iconic
+#    JSConf.EU talk to the Node.js Foundation, to new APIs like worker_thread, looking to the next 10 years of Node.js
+#    development.
 -
   speaker_id:
     - lucky-nkosi
@@ -199,17 +87,6 @@ list:
     a drone and fly it with a banana. If you're interested in all things web, custom controllers, Bluetooth technology
     and accelerometer-based controls or if you just like fruit and seeing silly applications of technology, this talk
     is for you.
--
-  speaker_id:
-    - romain-batby
-  tags:
-  title: 'Help save the planet, one web page at a time'
-  extract: >
-    The web has an ecological impact. We know it, that is a fact. As a concerned citizen and a web developer, I have
-    been trying to reduce the web’s impact for a year. But what impact exactly? When it is time to estimate the impact,
-    we are less confident. Focusing on the Netflix login page, I will estimate the CO2 cost of this particular page
-    following the requests through user devices, network and datacenters. The audience will learn how to reduce their
-    ecological impact as a web user and a web actor, and how to imagine the web of tomorrow.
 -
   speaker_id:
     - talia-nassi
@@ -226,29 +103,19 @@ list:
     how to do it without disrupting real end users, and how to exclude testing data from data and analytics. I will also
     talk about the tools that help in this process, the benefits of testing in production, why the pros outweigh the cons,
     and why it's more reliable.
--
-  speaker_id:
-    - trishul-goel
-  tags:
-  title: 'Privacy by design'
-  extract: >
-    Every other website on the internet uses third party trackers to improve their product and provide better user
-    experience, which eventually leads to a compromise in user privacy. As developers, we are responsible for making
-    our users feel safe and do whatever it takes to secure the privacy of our users. In this talk we will discuss the
-    data leaks which happen while using third party services and will walk through the measures we can take to avoid
-    them and ensure the privacy of our users, right from the time of development.
--
-  speaker_id:
-    - yuraima-estevez
-  tags:
-  title: 'How to do Good Without Doing Anything'
-  extract: >
-    There’s no arguing that building accessible websites is a force for good. Everyone, regardless of ability or
-    disability, ought to have the right to participate on the web. But ensuring that our websites and apps work for
-    everyone can be time consuming and isn’t always easy to get right. Luckily, like most things in programming,
-    investing a little bit of extra time on your accessibility workflow and setting up a series of automated tools
-    will end up saving you tons of time and energy in the long run. In this talk I will lay out a set of processes
-    that can reduce your time spent identifying, debugging and testing accessibility support in your applications. I
-    will discuss the ways that I automate certain aspects of my development workflows to catch accessibility errors,
-    define and set up e2e tests for accessibility and go through the entire lifecycle of accessibility feature development
-    using a real world example.
+
+#-
+#  speaker_id:
+#    - yuraima-estevez
+#  tags:
+#  title: 'How to do Good Without Doing Anything'
+#  extract: >
+#    There’s no arguing that building accessible websites is a force for good. Everyone, regardless of ability or 
+#    disability, ought to have the right to participate on the web. But ensuring that our websites and apps work for
+#    everyone can be time consuming and isn’t always easy to get right. Luckily, like most things in programming,
+#    investing a little bit of extra time on your accessibility workflow and setting up a series of automated tools
+#    will end up saving you tons of time and energy in the long run. In this talk I will lay out a set of processes
+#    that can reduce your time spent identifying, debugging and testing accessibility support in your applications. I
+#    will discuss the ways that I automate certain aspects of my development workflows to catch accessibility errors,
+#    define and set up e2e tests for accessibility and go through the entire lifecycle of accessibility feature development
+#    using a real world example.
