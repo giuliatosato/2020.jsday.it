@@ -57,7 +57,7 @@ list:
   speaker_id:
     - liran-tal
   tags:
-  title: 'Packages for mass consumption: the mechanics of npm dependencies'
+  title: 'Packages for Mass Consumption - an npm story unfolded'
   extract: >
     Master the delicate nuances and deep impact of your app’s dependencies. Uncover the mysterious ways in which npm
     dependencies work, the mechanics of lockfiles, and understand the security risks of an entire ecosystem. This talk
