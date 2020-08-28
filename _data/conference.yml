@@ -14,7 +14,7 @@ domain: jsday.it
 show_cfp: false
 cfp_url: https://cfp.jsday.it/
 scholarships_available: true
-schedule_available: false
+schedule_available: true
 eventbrite_link: https://eventbrite.com/tickets-external?eid=61732389238&ref=etckt
 
 iubenda:
