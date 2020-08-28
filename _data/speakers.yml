@@ -64,20 +64,20 @@ list:
     first_name: Liran
     last_name: Tal
     twitter: liran_tal
-#   -
-#    id: matteo-collina
-#    description: |
-#     Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he
-#     defended his Ph.D. thesis titled "Application Platforms for the Internet of Things". Matteo is a member of the
-#     Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast
-#     logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more
-#     than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay
-#     just to name a few. He is also co-author of the book "Node.js Cookbook, Third Edition" edited by Packt. In the
-#     summer he loves sailing the Sirocco.
-#    image: matteo-collina.jpg
-#    first_name: Matteo
-#    last_name: Collina
-#    twitter: matteocollina
+   -
+    id: matteo-collina
+    description: |
+     Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he
+     defended his Ph.D. thesis titled "Application Platforms for the Internet of Things". Matteo is a member of the
+     Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast
+     logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more
+     than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay
+     just to name a few. He is also co-author of the book "Node.js Cookbook, Third Edition" edited by Packt. In the
+     summer he loves sailing the Sirocco.
+    image: matteo-collina.jpg
+    first_name: Matteo
+    last_name: Collina
+    twitter: matteocollina
    -
     id: lucky-nkosi
     description: |
@@ -101,13 +101,13 @@ list:
     first_name: Talia
     last_name: Nassi
     twitter: talia_nassi
-#   -
-#    id: yuraima-estevez
-#    description: |
-#     Yuraima Estevez is a senior software engineer at The New York Times.  She cares deeply about building open source
-#     tools, teaches developers how to create inclusive apps, and helps organize the useReactNYC meetup.  Her superpower
-#     is saying hello to every dog she sees.
-#    image: yuraima-estevez.jpg
-#    first_name: Yuraima
-#    last_name: Estevez
-#    twitter: yurm04
+   -
+    id: yuraima-estevez
+    description: |
+     Yuraima Estevez is a senior software engineer at The New York Times.  She cares deeply about building open source
+     tools, teaches developers how to create inclusive apps, and helps organize the useReactNYC meetup.  Her superpower
+     is saying hello to every dog she sees.
+    image: yuraima-estevez.jpg
+    first_name: Yuraima
+    last_name: Estevez
+    twitter: yurm04
