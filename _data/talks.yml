@@ -57,23 +57,23 @@ list:
   speaker_id:
     - liran-tal
   tags:
-  title: 'Packages for mass consumption: the mechanics of npm dependencies'
+  title: 'Packages for Mass Consumption - an npm story unfolded'
   extract: >
     Master the delicate nuances and deep impact of your app’s dependencies. Uncover the mysterious ways in which npm
     dependencies work, the mechanics of lockfiles, and understand the security risks of an entire ecosystem. This talk
     will unravel multiple dimensions in which our application relies on dependencies, and present best practices for
     ideal developer experience and team collaboration workflows.
 
-#-
-#  speaker_id:
-#    - matteo-collina
-#  tags:
-#  title: 'Node.js has grown up!'
-#  extract: >
-#    Node.js has crossed the 10 year mark, and it’s about time to reflect on how the project grow up to become one of
-#    the pillars of application development on the Web and beyond. We’ll cover the history of Node.js from the iconic
-#    JSConf.EU talk to the Node.js Foundation, to new APIs like worker_thread, looking to the next 10 years of Node.js
-#    development.
+-
+  speaker_id:
+    - matteo-collina
+  tags:
+  title: 'Node.js has grown up!'
+  extract: >
+    Node.js has crossed the 10 year mark, and it’s about time to reflect on how the project grow up to become one of
+    the pillars of application development on the Web and beyond. We’ll cover the history of Node.js from the iconic
+    JSConf.EU talk to the Node.js Foundation, to new APIs like worker_thread, looking to the next 10 years of Node.js
+    development.
 -
   speaker_id:
     - lucky-nkosi
@@ -104,18 +104,18 @@ list:
     talk about the tools that help in this process, the benefits of testing in production, why the pros outweigh the cons,
     and why it's more reliable.
 
-#-
-#  speaker_id:
-#    - yuraima-estevez
-#  tags:
-#  title: 'How to do Good Without Doing Anything'
-#  extract: >
-#    There’s no arguing that building accessible websites is a force for good. Everyone, regardless of ability or 
-#    disability, ought to have the right to participate on the web. But ensuring that our websites and apps work for
-#    everyone can be time consuming and isn’t always easy to get right. Luckily, like most things in programming,
-#    investing a little bit of extra time on your accessibility workflow and setting up a series of automated tools
-#    will end up saving you tons of time and energy in the long run. In this talk I will lay out a set of processes
-#    that can reduce your time spent identifying, debugging and testing accessibility support in your applications. I
-#    will discuss the ways that I automate certain aspects of my development workflows to catch accessibility errors,
-#    define and set up e2e tests for accessibility and go through the entire lifecycle of accessibility feature development
-#    using a real world example.
+-
+  speaker_id:
+    - yuraima-estevez
+  tags:
+  title: 'How to do Good Without Doing Anything'
+  extract: >
+    There’s no arguing that building accessible websites is a force for good. Everyone, regardless of ability or 
+    disability, ought to have the right to participate on the web. But ensuring that our websites and apps work for
+    everyone can be time consuming and isn’t always easy to get right. Luckily, like most things in programming,
+    investing a little bit of extra time on your accessibility workflow and setting up a series of automated tools
+    will end up saving you tons of time and energy in the long run. In this talk I will lay out a set of processes
+    that can reduce your time spent identifying, debugging and testing accessibility support in your applications. I
+    will discuss the ways that I automate certain aspects of my development workflows to catch accessibility errors,
+    define and set up e2e tests for accessibility and go through the entire lifecycle of accessibility feature development
+    using a real world example.
