@@ -58,7 +58,7 @@ list:
     be attacked and sometimes it just wasn't properly implemented. I intend to start from the known to the less known
     security considerations and walk the audience through this in such a way that beginners are also carried along.
 -
-  slot: "1"
+  slot: "4"
   speaker_id:
     - liran-tal
   tags:
@@ -70,16 +70,15 @@ list:
     ideal developer experience and team collaboration workflows.
 
 -
-  slot: "4"
+  slot: "1"
   speaker_id:
     - matteo-collina
   tags:
-  title: 'Node.js has grown up!'
+  title: 'Build a community, not a framework'
   extract: >
-    Node.js has crossed the 10 year mark, and it’s about time to reflect on how the project grow up to become one of
-    the pillars of application development on the Web and beyond. We’ll cover the history of Node.js from the iconic
-    JSConf.EU talk to the Node.js Foundation, to new APIs like worker_thread, looking to the next 10 years of Node.js
-    development.
+    You are watching from the sides, dreaming about building the next (popular?) framework or library in your field. You dream about presenting your creation in front of hundreds of people at OpenJS World. You believe in yourself, and suddenly you have thousands of downloads per month and developers relying on you to maintain your library. You think you’ve made it. Instead, it is only the beginning.
+    What makes an Open Source library or framework successful? Does something become popular because it’s technologically superior, or shows a clear innovation path? A single maintainer can only do so much, dividing their time between adding new features, fixing bugs and updating dependencies.
+    Maintaining a successful Open Source project is a big burden for a single individual, often working on their own time. You need something else - you need a community.
 -
   slot: "5"
   speaker_id:
